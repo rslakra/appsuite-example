@@ -15,8 +15,8 @@ public class TestGeoInfo {
 
     @Test
     public void testGeoInfo() {
-//        String bookingCountry = "US";
-//        String bookingCurrency = "TWD";
+// String bookingCountry = "US";
+// String bookingCurrency = "TWD";
 
         String bookingCountry = "US";
         String bookingCurrency = "EUR";

@@ -98,16 +98,16 @@ public class EnumsTest {
         String xmlData = IOUtils.readContents("CountryAndCurrencies.xml");
         LOGGER.debug(xmlData);
 
-//        AllCountryAndCurrencyResponse response = null;
-//        try {
+// AllCountryAndCurrencyResponse response = null;
+// try {
 //            XmlUtils.INSTANCE.registerUnmarshaller(AllCountryAndCurrencyResponse.class);
 //            response = XmlUtils.INSTANCE.unmarshall(xmlData, AllCountryAndCurrencyResponse.class);
 //             LOGGER.debug(response);
-//        } catch (JAXBException e) {
+// } catch (JAXBException e) {
 //            e.printStackTrace();
-//        }
+// }
 //
-//        assertNotNull(response);
+// assertNotNull(response);
     }
 
     @Test
@@ -117,7 +117,7 @@ public class EnumsTest {
 
         AllCountryAndCurrencyResponse response = null;
         //Using Gson Parser (if the json contains values that enum does not contain)
-//        response = JsonUtility.INSTANCE.fromJSONString(jsonData, AllCountryAndCurrencyResponse.class);
+// response = JsonUtility.INSTANCE.fromJSONString(jsonData, AllCountryAndCurrencyResponse.class);
         try {
             response = JSONUtils.fromJson(jsonData, AllCountryAndCurrencyResponse.class);
         } catch (IOException e) {
@@ -126,7 +126,7 @@ public class EnumsTest {
 
         assertNotNull(response);
         LOGGER.debug("{}", response);
-//        assertEquals(response.toString(), jsonData);
+// assertEquals(response.toString(), jsonData);
 
     }
 }

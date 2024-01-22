@@ -27,8 +27,8 @@ public class ClassTest {
     }
 
 //    public TestEnums(@JsonProperty("distance") String distanceUnitType, @JsonProperty("weekDay") String weekDays) {
-//        this.distanceUnitType = DistanceUnitType.valueOf(distanceUnitType);
-//        this.weekDays = WeekDays.valueOf(weekDays);
+// this.distanceUnitType = DistanceUnitType.valueOf(distanceUnitType);
+// this.weekDays = WeekDays.valueOf(weekDays);
 //    }
 
     public ClassTest(DistanceUnitType distanceUnitType, WeekDays weekDays) {

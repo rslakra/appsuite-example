@@ -39,7 +39,7 @@ public class CountryAndCurrency {
             ex.printStackTrace();
             return null;
         }
-//        return String.format("CountryAndCurrency <bookingCountry:%s, billingCountry:%s, supportedCurrencies:%s, "
+// return String.format("CountryAndCurrency <bookingCountry:%s, billingCountry:%s, supportedCurrencies:%s, "
 //                             + "defaultCurrency:%s>",
 //                             bookingCountry, billingCountry, supportedCurrencies, defaultCurrency);
     }
