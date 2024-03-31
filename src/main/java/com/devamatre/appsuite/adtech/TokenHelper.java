@@ -27,7 +27,7 @@ public class TokenHelper {
             .serverBaseUrl(apps.getServerBaseUrl())
             .pathSegment(URL_PATH_ACCESS_TOKEN)
             .realm(apps.getRealm())
-            .expirationTimeInMinutes(EXPIRATION_TIME_IN_MINUTES)
+            .expiryTimeInMinutes(EXPIRATION_TIME_IN_MINUTES)
             .build();
         String jwtToken = JWTUtils.jwtToken(jwtRequest);
         LOGGER.info("\nFor \n\nclientId\n{} \n\nclientSecret\n{} \n\nbase64EncodedToken\n{} \n\njwtToken\n{}\n\n",
