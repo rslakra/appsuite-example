@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.example.enums;
+package com.rslakra.appsuite.example.enums;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;

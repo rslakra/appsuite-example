@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.adtech.feeds.mx3;
+package com.rslakra.appsuite.adtech.feeds.mx3;
 
-import com.devamatre.appsuite.core.IOUtils;
+import com.rslakra.appsuite.core.IOUtils;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.lang3.CharEncoding;

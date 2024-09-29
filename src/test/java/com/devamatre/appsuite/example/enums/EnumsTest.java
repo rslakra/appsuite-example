@@ -1,10 +1,10 @@
-package com.devamatre.appsuite.example.enums;
+package com.rslakra.appsuite.example.enums;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.devamatre.appsuite.adtech.entity.AllCountryAndCurrencyResponse;
-import com.devamatre.appsuite.core.IOUtils;
-import com.devamatre.appsuite.core.json.JSONUtils;
+import com.rslakra.appsuite.adtech.entity.AllCountryAndCurrencyResponse;
+import com.rslakra.appsuite.core.IOUtils;
+import com.rslakra.appsuite.core.json.JSONUtils;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

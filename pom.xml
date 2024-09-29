@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- appsuite-example -->
-    <groupId>com.devamatre.appsuite</groupId>
+    <groupId>com.rslakra.appsuite</groupId>
     <artifactId>appsuite-example</artifactId>
     <version>${revision}</version>
     <packaging>jar</packaging>
@@ -34,7 +34,7 @@
         <checkstyle.threshold>0</checkstyle.threshold>
 
         <!-- appsuite-core -->
-        <appsuite-core.version>0.0.30</appsuite-core.version>
+        <appsuite-core.version>0.0.33</appsuite-core.version>
 
         <!-- logging -->
         <slf4j-api.version>2.0.6</slf4j-api.version>
@@ -114,7 +114,7 @@
 
         <!--appsuite-core-->
         <dependency>
-            <groupId>com.devamatre.appsuite</groupId>
+            <groupId>com.rslakra.appsuite</groupId>
             <artifactId>appsuite-core</artifactId>
             <version>${appsuite-core.version}</version>
         </dependency>

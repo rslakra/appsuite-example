@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.adtech.feeds.mx3;
+package com.rslakra.appsuite.adtech.feeds.mx3;
 
-import com.devamatre.appsuite.core.IOUtils;
+import com.rslakra.appsuite.core.IOUtils;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

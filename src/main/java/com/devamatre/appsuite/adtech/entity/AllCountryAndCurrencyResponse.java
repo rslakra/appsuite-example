@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.adtech.entity;
+package com.rslakra.appsuite.adtech.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

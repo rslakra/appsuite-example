@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.example.entity.advertising;
+package com.rslakra.appsuite.example.entity.advertising;
 
 import java.math.BigDecimal;
 

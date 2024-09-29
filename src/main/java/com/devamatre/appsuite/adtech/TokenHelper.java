@@ -1,7 +1,7 @@
-package com.devamatre.appsuite.adtech;
+package com.rslakra.appsuite.adtech;
 
-import com.devamatre.appsuite.core.jwt.JWTUtils;
-import com.devamatre.appsuite.core.jwt.JwtRequest;
+import com.rslakra.appsuite.core.jwt.JWTUtils;
+import com.rslakra.appsuite.core.jwt.JwtRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

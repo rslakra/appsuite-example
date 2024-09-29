@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.example.entity;
+package com.rslakra.appsuite.example.entity;
 
-import com.devamatre.appsuite.core.ToString;
+import com.rslakra.appsuite.core.ToString;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

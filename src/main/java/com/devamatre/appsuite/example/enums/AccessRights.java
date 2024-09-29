@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.example.enums;
+package com.rslakra.appsuite.example.enums;
 
 import java.util.Arrays;
 

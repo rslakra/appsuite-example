@@ -1,7 +1,7 @@
-package com.devamatre.appsuite.adtech.entity;
+package com.rslakra.appsuite.adtech.entity;
 
-import com.devamatre.appsuite.example.enums.Country;
-import com.devamatre.appsuite.example.enums.Currency;
+import com.rslakra.appsuite.example.enums.Country;
+import com.rslakra.appsuite.example.enums.Currency;
 import lombok.Getter;
 
 import java.util.Arrays;

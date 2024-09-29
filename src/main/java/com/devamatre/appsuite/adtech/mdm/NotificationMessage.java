@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.adtech.mdm;
+package com.rslakra.appsuite.adtech.mdm;
 
-import com.devamatre.appsuite.core.ToString;
+import com.rslakra.appsuite.core.ToString;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

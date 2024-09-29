@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.example.filter;
+package com.rslakra.appsuite.example.filter;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

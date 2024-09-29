@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.example.filter;
+package com.rslakra.appsuite.example.filter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

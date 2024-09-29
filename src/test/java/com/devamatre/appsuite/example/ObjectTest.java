@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.core;
+package com.rslakra.appsuite.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

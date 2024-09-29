@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.example.security;
+package com.rslakra.appsuite.example.security;
 
 /**
  * @author Rohtash Lakra

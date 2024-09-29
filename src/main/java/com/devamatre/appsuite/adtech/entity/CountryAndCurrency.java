@@ -1,10 +1,10 @@
-package com.devamatre.appsuite.adtech.entity;
+package com.rslakra.appsuite.adtech.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.devamatre.appsuite.core.json.JSONUtils;
-import com.devamatre.appsuite.example.enums.Country;
-import com.devamatre.appsuite.example.enums.Currency;
+import com.rslakra.appsuite.core.json.JSONUtils;
+import com.rslakra.appsuite.example.enums.Country;
+import com.rslakra.appsuite.example.enums.Currency;
 
 import java.io.IOException;
 import java.util.Set;

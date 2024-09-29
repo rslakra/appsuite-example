@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.example.dto;
+package com.rslakra.appsuite.example.dto;
 
-import com.devamatre.appsuite.core.ToString;
+import com.rslakra.appsuite.core.ToString;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

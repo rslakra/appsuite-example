@@ -1,8 +1,8 @@
-package com.devamatre.appsuite.example.entity;
+package com.rslakra.appsuite.example.entity;
 
-import com.devamatre.appsuite.core.ToString;
-import com.devamatre.appsuite.core.entity.Color;
-import com.devamatre.appsuite.core.entity.User;
+import com.rslakra.appsuite.core.ToString;
+import com.rslakra.appsuite.core.entity.Color;
+import com.rslakra.appsuite.core.entity.User;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

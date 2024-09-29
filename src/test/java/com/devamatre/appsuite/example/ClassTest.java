@@ -1,12 +1,12 @@
-package com.devamatre.appsuite.example;
+package com.rslakra.appsuite.example;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.google.gson.annotations.SerializedName;
-import com.devamatre.appsuite.core.enums.DistanceUnitType;
-import com.devamatre.appsuite.core.enums.DistanceUnitTypeDeserializer;
-import com.devamatre.appsuite.core.enums.WeekDayDeserializer;
-import com.devamatre.appsuite.core.enums.WeekDays;
+import com.rslakra.appsuite.core.enums.DistanceUnitType;
+import com.rslakra.appsuite.core.enums.DistanceUnitTypeDeserializer;
+import com.rslakra.appsuite.core.enums.WeekDayDeserializer;
+import com.rslakra.appsuite.core.enums.WeekDays;
 
 /**
  * @author Rohtash Lakra

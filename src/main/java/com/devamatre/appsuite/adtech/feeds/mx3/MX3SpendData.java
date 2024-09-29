@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.adtech.feeds.mx3;
+package com.rslakra.appsuite.adtech.feeds.mx3;
 
-import com.devamatre.appsuite.core.ToString;
+import com.rslakra.appsuite.core.ToString;
 import lombok.Getter;
 import lombok.Setter;
 
