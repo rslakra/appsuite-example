@@ -18,6 +18,15 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ "master" ]
   schedule:
+    # A cron expression of "26 14 * * 5" means a task will run every Friday at 2:26 PM.
+    # Explanation of the fields:
+    # - 26: The minute of the hour (26 minutes past the hour).
+    # - 14: The hour of the day (2 PM).
+    # - \*: Any day of the month.
+    # - 5: Only on Friday (the 5th day of the week).
+    # Key points:
+    # - This cron job will only run on Fridays.
+    # - The task will execute at precisely 2:26 PM on Fridays.
     - cron: '26 14 * * 5'
 
 jobs:
