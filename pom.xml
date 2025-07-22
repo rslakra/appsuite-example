@@ -81,36 +81,17 @@
 
     </properties>
 
-    <!-- distributionManagement -->
-    <!--    <distributionManagement>-->
-    <!--        <repository>-->
-    <!--            <id>nexus</id>-->
-    <!--            <name>nexus-release</name>-->
-    <!--            <url>file:${mavenGitRepository}/releases</url>-->
-    <!--        </repository>-->
-    <!--        <snapshotRepository>-->
-    <!--            <id>nexus</id>-->
-    <!--            <name>nexus-snapshot</name>-->
-    <!--            <url>file:${mavenGitRepository}/snapshots</url>-->
-    <!--        </snapshotRepository>-->
-    <!--    </distributionManagement>-->
+    <!-- Distribution Management -->
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/rslakra/appsuite-example</url>
+        </repository>
+    </distributionManagement>
 
     <!-- Dependencies -->
     <dependencies>
-
-        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.slf4j/slf4j-api &ndash;&gt;-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.slf4j</groupId>-->
-        <!--            <artifactId>slf4j-api</artifactId>-->
-        <!--            <version>${slf4j-api.version}</version>-->
-        <!--        </dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
-        <!--        <dependency>-->
-        <!--            <groupId>org.slf4j</groupId>-->
-        <!--            <artifactId>slf4j-log4j12</artifactId>-->
-        <!--            <version>${slf4j-log4j12.version}</version>-->
-        <!--        </dependency>-->
 
         <!--appsuite-core-->
         <dependency>
