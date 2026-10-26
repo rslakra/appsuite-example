@@ -20,6 +20,8 @@ jobs:
   build:
     env:
       JDK_VERSION: '21'
+      # version used to build/install appsuite-core locally and consumed by this project
+      CORE_VERSION: '0.0.0-LOCAL'
       VERSION: ${{ github.run_id }}.${{ github.run_number }}.${{ github.run_attempt }}
     
     name: Build & Test (Units & Integrations)
@@ -90,6 +92,18 @@ jobs:
           architecture: x64
           cache: maven
 
+      # Checkout appsuite-core (dependency) into ./appsuite-core
+      - name: Checkout appsuite-core
+        uses: actions/checkout@v4
+        with:
+          repository: rslakra/appsuite-core
+          path: appsuite-core
+
+      # Build and install appsuite-core into the local maven repository
+      - name: Build & Install appsuite-core
+        working-directory: appsuite-core
+        run: mvn -B clean install -DskipTests -Drevision=$CORE_VERSION
+
       # Step for compiling code
       # Use -B or --batch-mode for non-interactive builds
       - name: Build Maven Package
@@ -97,7 +111,7 @@ jobs:
           #!/bin/bash
           echo "RELEASE_VERSION: ${RELEASE_VERSION}"
           echo "SNAPSHOT_VERSION: ${SNAPSHOT_VERSION}"
-          mvn -B clean package -Drevision=$RELEASE_VERSION
+          mvn -B clean package -Drevision=$RELEASE_VERSION -Dappsuite-core.version=$CORE_VERSION
       #    mvn -B clean package -Drevision=$SNAPSHOT_VERSION
       #    mvn -B package -Drevision=$RELEASE_VERSION -DskipTests=true
       #    - name: Build with Maven
@@ -110,7 +124,7 @@ jobs:
           #!/bin/bash
           echo "RELEASE_VERSION: ${RELEASE_VERSION}"
           echo "SNAPSHOT_VERSION: ${SNAPSHOT_VERSION}"
-          mvn -B verify -Drevision=$RELEASE_VERSION
+          mvn -B verify -Drevision=$RELEASE_VERSION -Dappsuite-core.version=$CORE_VERSION
 
       - name: Build Artifact
         run: |
